@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript string functions</title>
+</head>
+<body>
+
+ 
+    <script>
+        var str="this is a string"
+        console.log(str)
+        // first occurrence of substring
+        var position=str.indexOf('ri')
+        console.log(position)
+        var position2= str.lastIndexOf('is')
+        console.log(position2)
+        // substring from string
+        var substr=str.slice(1,5)
+        console.log(substr)
+        var substr2=str.substring(1,5)
+        console.log(substr2)
+        var substr3=str.substr(1,5)
+        console.log(substr3)
+        // replace a word from string
+        var replaced=str.replace('string','ram')
+        console.log(replaced)
+        // change string into upper case
+        var STRING=str.toUpperCase(str)
+        console.log(STRING)
+        var STRING2=str.toLowerCase(str)
+        console.log(STRING2)
+        // start with white space
+        var startwithwhitespace=  " this is      ramji     mishra  "
+        console.log(startwithwhitespace)
+        console.log(startwithwhitespace.trim())
+        // to concat tthe substring in string
+        var newstring=str.concat(' NewString')
+        console.log(newstring)
+        // position of char
+        var char2=str.charAt(5)
+        console.log(char2)
+        var char3=str.charCodeAt(5)
+        console.log(char3)
+        console.log(str[1,5])
+
+    </script>   
+</body>
+</html>
